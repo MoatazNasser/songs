@@ -346,19 +346,21 @@ audio::-webkit-media-controls-play-button {
   }
 
   .box {
-    width: var(--width-lg);
-    height: var(--width-lg);
+    width: calc(var(--width-lg) * 1.5);
+    height: calc(var(--width-lg) * 1.5);
   }
 
   .box span {
     -webkit-transform: rotateY(calc(var(--i) * 36deg))
       translateZ(var(--ztransform-lg));
-    transform: rotateY(calc(var(--i) * 36deg)) translateZ(var(--ztransform-lg));
+    transform: rotateY(calc(var(--i) * 36deg))
+      translateZ(calc(var(--ztransform-lg) * 1.5));
   }
   .text-shift {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
   .btn-style {
+    padding: 2px !important;
     font-size: 0.6rem;
   }
 }

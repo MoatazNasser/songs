@@ -1,35 +1,3 @@
-// var quotesArr = [
-//   "“1-Be yourself; everyone else is already taken.”",
-//   "“2-Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”",
-//   "“3-So many books, so little time.”",
-//   "“4-You know you're in love when you can't fall asleep because reality is finally better than your dreams.”",
-//   "“5-You only live once, but if you do it right, once is enough.”",
-//   "“6-Be the change that you wish to see in the world.”",
-//   "“7-In three words I can sum up everything I've learned about life: it goes on.”",
-//   "“8-If you tell the truth, you don't have to remember anything.”",
-//   "“9-A friend is someone who knows all about you and still loves you.”",
-//   "“10-To live is the rarest thing in the world. Most people exist, that is all.”",
-// ];
-// var authorArr = [
-//   "..Oscar Wilde..",
-//   "..Albert Einstein..",
-//   "..Frank Zappa..",
-//   "..Dr. Seuss..",
-//   "..Mae West..",
-//   "..Mahatma Gandhi..",
-//   "..Robert Frost..",
-//   "..Mark Twain..",
-//   "Elbert Hubbard",
-//   "..Oscar Wilde..",
-// ];
-
-// btn.onclick = function () {
-//   lastIndex = changeIndex();
-//   quote.innerHTML = `
-//   <p class="fs-2">${quotesArr[currentIndex]}</p>
-// <p class="fs-4">${authorArr[currentIndex]}</p>
-// `;
-// };
 
 var currentSinger = -1;
 

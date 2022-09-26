@@ -356,7 +356,7 @@ audio::-webkit-media-controls-play-button {
     transform: rotateY(calc(var(--i) * 36deg)) translateZ(var(--ztransform-lg));
   }
   .text-shift {
-    font-size: 1rem;
+    font-size: .6rem;
   }
   .btn-style {
     font-size: 0.6rem;
